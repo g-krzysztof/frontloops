@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #00ddad;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  background-color: #fff;
+  background-image: url("/img/bicycle.png");
+  background-size: cover;
+  background-position: 0px 170px;
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 500px;
+  margin: 150px auto 0 auto;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 50px 80px 30px 80px;
+}
+
+.card__title {
+  font-size: 26px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.card__icon {
+  cursor: pointer;
+}
+
+.card__subtitle {
+  padding-top: 15px;
+  font-size: 16.7px;
+  text-align: justify;
+  color: #999;
+  font-weight: 100;
+}
+
+.card__details {
+  padding: 0 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card__description {
+  width: 60%;
+  color: #777;
+  font-size: 18px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 25px;
+}
+
+.card__price {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: right;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.card__total-desc {
+  width: 60%;
+  font-size: 26px;
+  color: #777;
+  text-transform: uppercase;
+  font-weight: bold;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.card__total-price {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: right;
+  font-size: 26px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */

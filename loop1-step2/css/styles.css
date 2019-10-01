@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("/img/background.jpg") center center/cover no-repeat fixed;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto 0 auto;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+}
+
+.container__top {
+  padding: 20px 0;
+}
+
+.container__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+.container__btn {
+  width: 100%;
+  height: 60px;
+  background-color: #3e90e2;
+  color: white;
+  border: 0;
+  border-radius: 0 0 4px 4px;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__btn:active {
+  margin-top: 2px;
+  height: 58px;
+}
+
+.container__arrow {
+  height: 16px;
+}
+
+.container__btn-text {
+  padding: 1px 5px 0 0;
+}
+
+.bullets {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bullets__item {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.bullets__link {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  font-size: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  background-color: #999;
+  border-radius: 50%;
+}
+
+.bullets__link:hover {
+  background-color: #666;
+}
+
+.bullets__link--is-active {
+  background-color: #666;
+}
+
+.payment {
+  border-top: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.payment__logo {
+  width: 80px;
+  padding: 10px 0 10px 25px;
+}
+
+.payment__img {
+  width: 50px;
+}
+
+.payment__title {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  color: #999;
+}
+
+.payment__switch {
+  width: 50px;
+}
+
+.payment--is-active .payment__title {
+  color: #333;
+}
+
+.payment--is-active .payment__switch {
+  background: url("/img/check.svg") no-repeat center;
+}
+/*# sourceMappingURL=styles.css.map */
